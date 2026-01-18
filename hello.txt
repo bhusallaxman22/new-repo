@@ -15,7 +15,7 @@ git add - Stage a change file or index the changed fiel for commit
     syntax: git add file_name1 fine_name2 (for particular files)
             git add . (for all changed files at once)
 git commit - creates a new version of all the changed files
-    syntax: git commit -m "Message for the commit"
+    syntax: gieft commit -m "Message for the commit"
 
 git push - Pushes the commit to the remote
     syntax: git push remote_name branch_name
@@ -23,3 +23,6 @@ git push - Pushes the commit to the remote
 git pull- pulls the latest version from the remote
     syntax: git pull remote_name
 
+
+
+New branch changes
