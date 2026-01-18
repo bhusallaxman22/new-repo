@@ -1,1 +1,25 @@
 Hell World! Lala
+
+
+git remote add/remove/list
+git remote add remote_name(you can set it) remote-url(URL of the remote repo)
+git remote remove remote_name
+
+
+Git Commands
+git clone- Clones the existing repo from remote(such as github,gitlab azure devops)
+    syntax: git clone remote_url
+git init - Inatialize empty git in a folder 
+
+git add - Stage a change file or index the changed fiel for commit
+    syntax: git add file_name1 fine_name2 (for particular files)
+            git add . (for all changed files at once)
+git commit - creates a new version of all the changed files
+    syntax: git commit -m "Message for the commit"
+
+git push - Pushes the commit to the remote
+    syntax: git push remote_name branch_name
+
+git pull- pulls the latest version from the remote
+    syntax: git pull remote_name
+
